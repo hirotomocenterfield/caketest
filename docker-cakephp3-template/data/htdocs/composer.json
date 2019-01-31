@@ -1,0 +1,5 @@
+{
+    "require": {
+        "cakedc/users": "^8.0"
+    }
+}

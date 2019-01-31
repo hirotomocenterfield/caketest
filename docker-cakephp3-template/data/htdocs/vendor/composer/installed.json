@@ -1,0 +1,490 @@
+[
+    {
+        "name": "aura/intl",
+        "version": "3.0.0",
+        "version_normalized": "3.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/auraphp/Aura.Intl.git",
+            "reference": "7fce228980b19bf4dee2d7bbd6202a69b0dde926"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/auraphp/Aura.Intl/zipball/7fce228980b19bf4dee2d7bbd6202a69b0dde926",
+            "reference": "7fce228980b19bf4dee2d7bbd6202a69b0dde926",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^5.6|^7.0"
+        },
+        "time": "2017-01-20T05:00:11+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Aura\\Intl\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Aura.Intl Contributors",
+                "homepage": "https://github.com/auraphp/Aura.Intl/contributors"
+            }
+        ],
+        "description": "The Aura Intl package provides internationalization tools, specifically message translation.",
+        "homepage": "https://github.com/auraphp/Aura.Intl",
+        "keywords": [
+            "g11n",
+            "globalization",
+            "i18n",
+            "internationalization",
+            "intl",
+            "l10n",
+            "localization"
+        ]
+    },
+    {
+        "name": "cakedc/auth",
+        "version": "3.0.1",
+        "version_normalized": "3.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/CakeDC/auth.git",
+            "reference": "b2e742073fa74c6ad1eb463bc76d0d13ce613541"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/CakeDC/auth/zipball/b2e742073fa74c6ad1eb463bc76d0d13ce613541",
+            "reference": "b2e742073fa74c6ad1eb463bc76d0d13ce613541",
+            "shasum": ""
+        },
+        "require": {
+            "cakephp/cakephp": "^3.6.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^5.0"
+        },
+        "time": "2018-10-04T13:00:08+00:00",
+        "type": "cakephp-plugin",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "CakeDC\\Auth\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "CakeDC",
+                "homepage": "https://www.cakedc.com",
+                "role": "Author"
+            },
+            {
+                "name": "Others",
+                "homepage": "https://github.com/CakeDC/auth/graphs/contributors"
+            }
+        ],
+        "description": "Auth objects for CakePHP",
+        "homepage": "https://github.com/CakeDC/auth",
+        "keywords": [
+            "Authentication",
+            "auth",
+            "cakedc",
+            "cakephp"
+        ]
+    },
+    {
+        "name": "cakedc/users",
+        "version": "8.0.3",
+        "version_normalized": "8.0.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/CakeDC/users.git",
+            "reference": "9e94ca3662ef59969afb96fb565f55b80ede2b41"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/CakeDC/users/zipball/9e94ca3662ef59969afb96fb565f55b80ede2b41",
+            "reference": "9e94ca3662ef59969afb96fb565f55b80ede2b41",
+            "shasum": ""
+        },
+        "require": {
+            "cakedc/auth": "~3.0.0",
+            "cakephp/cakephp": "~3.6.0"
+        },
+        "require-dev": {
+            "cakephp/cakephp-codesniffer": "^2.0",
+            "google/recaptcha": "@stable",
+            "league/oauth2-facebook": "@stable",
+            "league/oauth2-google": "@stable",
+            "league/oauth2-instagram": "@stable",
+            "league/oauth2-linkedin": "@stable",
+            "luchianenco/oauth2-amazon": "^1.1",
+            "phpunit/phpunit": "^5.0",
+            "robthree/twofactorauth": "~1.6.0"
+        },
+        "suggest": {
+            "google/recaptcha": "Provides reCAPTCHA validation for registration form",
+            "league/oauth1-client": "Provides Social Authentication with Twitter",
+            "league/oauth2-facebook": "Provides Social Authentication with Facebook",
+            "league/oauth2-google": "Provides Social Authentication with Google+",
+            "league/oauth2-instagram": "Provides Social Authentication with Instagram",
+            "league/oauth2-linkedin": "Provides Social Authentication with LinkedIn",
+            "luchianenco/oauth2-amazon": "Provides Social Authentication with Amazon",
+            "robthree/twofactorauth": "Provides Google Authenticator functionality"
+        },
+        "time": "2019-01-18T11:36:34+00:00",
+        "type": "cakephp-plugin",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "CakeDC\\Users\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "CakeDC",
+                "homepage": "http://www.cakedc.com",
+                "role": "Author"
+            },
+            {
+                "name": "Others",
+                "homepage": "https://github.com/CakeDC/users/graphs/contributors"
+            }
+        ],
+        "description": "Users Plugin for CakePHP",
+        "homepage": "https://github.com/CakeDC/users",
+        "keywords": [
+            "Authentication",
+            "auth",
+            "cakedc",
+            "cakephp",
+            "oauth2"
+        ]
+    },
+    {
+        "name": "cakephp/cakephp",
+        "version": "3.6.14",
+        "version_normalized": "3.6.14.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/cakephp/cakephp.git",
+            "reference": "4ce123c1255e8ada474d02703abede3f8dced3bf"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/cakephp/cakephp/zipball/4ce123c1255e8ada474d02703abede3f8dced3bf",
+            "reference": "4ce123c1255e8ada474d02703abede3f8dced3bf",
+            "shasum": ""
+        },
+        "require": {
+            "aura/intl": "^3.0.0",
+            "cakephp/chronos": "^1.0.1",
+            "ext-intl": "*",
+            "ext-mbstring": "*",
+            "php": ">=5.6.0",
+            "psr/log": "^1.0.0",
+            "zendframework/zend-diactoros": "^1.4.0"
+        },
+        "conflict": {
+            "phpunit/phpunit": "<5.7"
+        },
+        "replace": {
+            "cakephp/cache": "self.version",
+            "cakephp/collection": "self.version",
+            "cakephp/core": "self.version",
+            "cakephp/database": "self.version",
+            "cakephp/datasource": "self.version",
+            "cakephp/event": "self.version",
+            "cakephp/filesystem": "self.version",
+            "cakephp/form": "self.version",
+            "cakephp/i18n": "self.version",
+            "cakephp/log": "self.version",
+            "cakephp/orm": "self.version",
+            "cakephp/utility": "self.version",
+            "cakephp/validation": "self.version"
+        },
+        "require-dev": {
+            "cakephp/cakephp-codesniffer": "^3.0",
+            "phpunit/phpunit": "^5.7.14|^6.0"
+        },
+        "suggest": {
+            "ext-openssl": "To use Security::encrypt() or have secure CSRF token generation.",
+            "lib-ICU": "The intl PHP library, to use Text::transliterate() or Text::slug()"
+        },
+        "time": "2018-12-07T03:21:25+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Cake\\": "src/"
+            },
+            "files": [
+                "src/Core/functions.php",
+                "src/Collection/functions.php",
+                "src/I18n/functions.php",
+                "src/Utility/bootstrap.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "CakePHP Community",
+                "homepage": "https://github.com/cakephp/cakephp/graphs/contributors"
+            }
+        ],
+        "description": "The CakePHP framework",
+        "homepage": "https://cakephp.org",
+        "keywords": [
+            "conventions over configuration",
+            "dry",
+            "form",
+            "framework",
+            "mvc",
+            "orm",
+            "psr-7",
+            "rapid-development",
+            "validation"
+        ]
+    },
+    {
+        "name": "cakephp/chronos",
+        "version": "1.2.3",
+        "version_normalized": "1.2.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/cakephp/chronos.git",
+            "reference": "395110125ff577f080fa064dca5c5608a4e77ee1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/cakephp/chronos/zipball/395110125ff577f080fa064dca5c5608a4e77ee1",
+            "reference": "395110125ff577f080fa064dca5c5608a4e77ee1",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^5.5.9|^7"
+        },
+        "require-dev": {
+            "athletic/athletic": "~0.1",
+            "cakephp/cakephp-codesniffer": "^3.0",
+            "phpbench/phpbench": "@dev",
+            "phpstan/phpstan": "^0.6.4",
+            "phpunit/phpunit": "<6.0 || ^7.0"
+        },
+        "time": "2018-10-18T22:02:21+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Cake\\Chronos\\": "src/"
+            },
+            "files": [
+                "src/carbon_compat.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Brian Nesbitt",
+                "email": "brian@nesbot.com",
+                "homepage": "http://nesbot.com"
+            },
+            {
+                "name": "The CakePHP Team",
+                "homepage": "http://cakephp.org"
+            }
+        ],
+        "description": "A simple API extension for DateTime.",
+        "homepage": "http://cakephp.org",
+        "keywords": [
+            "date",
+            "datetime",
+            "time"
+        ]
+    },
+    {
+        "name": "psr/http-message",
+        "version": "1.0.1",
+        "version_normalized": "1.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-fig/http-message.git",
+            "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/php-fig/http-message/zipball/f6561bf28d520154e4b0ec72be95418abe6d9363",
+            "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2016-08-06T14:39:51+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Psr\\Http\\Message\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "PHP-FIG",
+                "homepage": "http://www.php-fig.org/"
+            }
+        ],
+        "description": "Common interface for HTTP messages",
+        "homepage": "https://github.com/php-fig/http-message",
+        "keywords": [
+            "http",
+            "http-message",
+            "psr",
+            "psr-7",
+            "request",
+            "response"
+        ]
+    },
+    {
+        "name": "psr/log",
+        "version": "1.1.0",
+        "version_normalized": "1.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-fig/log.git",
+            "reference": "6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/php-fig/log/zipball/6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd",
+            "reference": "6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2018-11-20T15:27:04+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Psr\\Log\\": "Psr/Log/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "PHP-FIG",
+                "homepage": "http://www.php-fig.org/"
+            }
+        ],
+        "description": "Common interface for logging libraries",
+        "homepage": "https://github.com/php-fig/log",
+        "keywords": [
+            "log",
+            "psr",
+            "psr-3"
+        ]
+    },
+    {
+        "name": "zendframework/zend-diactoros",
+        "version": "1.8.6",
+        "version_normalized": "1.8.6.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/zendframework/zend-diactoros.git",
+            "reference": "20da13beba0dde8fb648be3cc19765732790f46e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/zendframework/zend-diactoros/zipball/20da13beba0dde8fb648be3cc19765732790f46e",
+            "reference": "20da13beba0dde8fb648be3cc19765732790f46e",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^5.6 || ^7.0",
+            "psr/http-message": "^1.0"
+        },
+        "provide": {
+            "psr/http-message-implementation": "1.0"
+        },
+        "require-dev": {
+            "ext-dom": "*",
+            "ext-libxml": "*",
+            "php-http/psr7-integration-tests": "dev-master",
+            "phpunit/phpunit": "^5.7.16 || ^6.0.8 || ^7.2.7",
+            "zendframework/zend-coding-standard": "~1.0"
+        },
+        "time": "2018-09-05T19:29:37+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.8.x-dev",
+                "dev-develop": "1.9.x-dev",
+                "dev-release-2.0": "2.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "src/functions/create_uploaded_file.php",
+                "src/functions/marshal_headers_from_sapi.php",
+                "src/functions/marshal_method_from_sapi.php",
+                "src/functions/marshal_protocol_version_from_sapi.php",
+                "src/functions/marshal_uri_from_sapi.php",
+                "src/functions/normalize_server.php",
+                "src/functions/normalize_uploaded_files.php",
+                "src/functions/parse_cookie_header.php"
+            ],
+            "psr-4": {
+                "Zend\\Diactoros\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-2-Clause"
+        ],
+        "description": "PSR HTTP Message implementations",
+        "homepage": "https://github.com/zendframework/zend-diactoros",
+        "keywords": [
+            "http",
+            "psr",
+            "psr-7"
+        ]
+    }
+]
